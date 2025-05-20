@@ -28,7 +28,7 @@ rtv-test/
 │   │   ├── MovieList/
 │   │   └── VideoPlayer/
 │   ├── pages/
-│   │   ├── Home/
+│   │   ├── Home/ (Includes styling components)
 │   │   └── Detail/
 │   │   └── Video/
 │   ├── store/ (Redux)
@@ -40,7 +40,7 @@ rtv-test/
 
 ### MovieList
 - Horizontal scrollable list of movies
-- Custom scroll arrows with gradient backgrounds
+- Custom scroll arrows with gradient backgrounds (Non functional)
 - Smooth scrolling behavior
 - Responsive card design
 
@@ -66,6 +66,7 @@ cd rtv-test
 2. Install dependencies:
 ```bash
 npm install
+```
 
 3. Start the development server:
 ```bash
@@ -85,9 +86,8 @@ npm run dev
 
 ## Known Issues
 
-- Video player may have loading delays on slow connections
+- Video player may have issues due to invalid config key
 - Scroll arrows may overlap with content on very small screens
-- Some movie data might be missing or incomplete
 
 ## Future Improvements
 
